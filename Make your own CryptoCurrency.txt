@@ -19,3 +19,5 @@ Copy your contract address
 Open Metamask and click Import Tokens in the Assets tab
 Enter your Token Contract Address, and it should detect the name and number of decimals automatically
 Click Add, and you will see your balance in Metamask!
+
+Link for SMITCOIN: https://goerli.etherscan.io/token/0xA9cC074316F78d60833a98A71889332dc0C8f02B?a=0xc60098333d5b3d81ee88fb499d76c750bbea8998
