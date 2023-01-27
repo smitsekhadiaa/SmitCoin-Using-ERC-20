@@ -1,0 +1,21 @@
+ERC stands for Ethereum Request for Comment. Essentially, they are standards that have been approved by the community and are used to convey technical requirements and specifications for certain use cases.
+
+ERC-20 specifically is a standard which outlines the technical specification of a fungible token.
+
+Most tokens on Ethereum comply with the ERC-20 specification. Following a standard like ERC-20 allows application developers which use ERC-20 tokens to easily support all ERC-20 tokens without having to write specialized code for them individually.
+
+write to solidity code, see the code it is with comments
+
+Select the Injected Provider - MetaMask environment (ensure you are on the Goerli Test Network), and connect your Metamask wallet.
+
+Select the LW3Token.sol contract, and enter values for the constructor arguments _name and _symbol.
+
+Click Transact and approve the transaction from Metamask to deploy your contract!
+
+You may notice that even though you minted tokens to your address, they don't show up in Metamask.
+
+This is because Metamask cannot detect random ERC20 token balances (since there are literally hundreds of thousands of them). They have a list of the most well known ERC20 tokens that they can show automatically, but apart from that, for your own tokens, you will usually need to tell Metamask to add it to your wallet manually.
+Copy your contract address
+Open Metamask and click Import Tokens in the Assets tab
+Enter your Token Contract Address, and it should detect the name and number of decimals automatically
+Click Add, and you will see your balance in Metamask!
